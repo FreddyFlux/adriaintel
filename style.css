@@ -20,10 +20,6 @@ body {
   background-color: #f1a661 !important;
 }
 
-.fs-4 {
-  color: #fdeedc;
-}
-
 .headline {
   color: #ffd8a9 !important;
 }
@@ -31,7 +27,7 @@ body {
 .btn-primary {
   background-color: #f1a661 !important;
   border: 2px solid #e38b29 !important;
-  color: #fdeedc !important;
+  color: #183d3d !important;
 }
 
 .text-body-secondary {
@@ -55,4 +51,42 @@ body {
   border-radius: 50%;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.fs-4 {
+  font-size: 2rem !important;
+}
+
+.background-video {
+  opacity: 60%;
+  border-radius: 10%;
+}
+
+.form-container {
+  width: 70%;
+}
+
+.form-control {
+  background-color: #ffd8a9;
+  color: #183d3d;
+}
+
+.form-control form:checked {
+  background-color: #fdeedc;
+}
+
+.contact-info {
+  font-size: 1.5rem;
+}
+
+.consulting-hero {
+  height: 40rem !important;
+}
+
+.trade-image {
+  justify-content: center !important;
+}
+
+.trade-hero {
+  margin: -2vh !important;
 }

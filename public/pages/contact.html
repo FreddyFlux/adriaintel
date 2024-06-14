@@ -12,77 +12,89 @@
     />
     <link rel="stylesheet" href="/style.css" />
   </head>
-</html>
-<body>
   <body>
-    <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="/"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+    <body>
+      <div class="container">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
         >
-          <svg class="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <span class="fs-4">Adria Intel</span>
-        </a>
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4 headline">Adria Intel</span>
+          </a>
 
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="/index.html" class="nav-link" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Consulting</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Export/Import</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Contact</a>
-          </li>
-        </ul>
-      </header>
-    </div>
-    <div class="px-4 py-5 my-5 text-center">
-      <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input
-            type="email"
-            class="form-control"
-            id="exampleFormControlInput1"
-            placeholder="name@example.com"
-          />
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Example select</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
-        </div>
-      </form>
-    </div>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link" aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/public/pages/consulting.html" class="nav-link"
+                >Consulting</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/public/pages/trade-brokerage.html" class="nav-link"
+                >Trade Brokerage</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/public/pages/contact.html" class="nav-link active"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </header>
+      </div>
+      <div class="px-4 py-5 my-5 text-center container form-container">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Inquires About</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Consulting</option>
+              <option>Trade Brokerage</option>
+              <option>Sustainability</option>
+              <option>Other - Specify What</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Topic</label>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Default input"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Brief description</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="8"
+            ></textarea>
+            <div class="b-example-divider divider"></div>
+
+            <button type="submit" class="btn btn-primary bold text">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </body>
   </body>
-</body>
+</html>
